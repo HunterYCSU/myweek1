@@ -8,9 +8,12 @@ namespace Week1ObjectOriented.Classes
 {
     public class Circle : Shape
     {
+        private int radius;
+        double pi = Math.PI;
+
         public override int GetArea()
         {
-            throw new NotImplementedException();
+            return (int)(pi * radius * radius);
         }
     }
 

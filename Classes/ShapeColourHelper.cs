@@ -8,7 +8,12 @@ namespace Week1ObjectOriented.Classes
 
         public static Shape AddColour(Shape s)
         {
-            s.Colour = "Red";
+            string[] colours = { "Yellow", "Red", "Blue", "Green", "Orange" };
+            Random random = new Random();
+            int randomIndex = random.Next(0, colours.Length);
+            string colourRandom = colours[randomIndex];
+
+            s.Colour = colourRandom;
 
             return s;
         }
