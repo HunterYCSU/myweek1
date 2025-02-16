@@ -1,5 +1,4 @@
-﻿
-namespace Week1ObjectOriented.Interfaces
+﻿namespace Week1ObjectOriented.Interfaces
 {
     public interface IFaces
     {
